@@ -1,0 +1,101 @@
+.btn{
+
+    background: rgb(244, 244, 248);
+    transition: background-color .8s;
+    padding:6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.btn:visited{
+    color:rgb(195, 228, 243)
+}
+
+.btn:hover{
+
+    background-color: rgb(240, 56, 83);
+}
+
+.heading-container{
+
+    border: 10px solid rgb(2, 85, 95);
+    background-color: rgb(23, 133, 96);
+    padding: 34px;
+    margin: 34px auto;
+    width: auto;
+    border-radius: 50px;
+    text-align: center;
+    font-display:initial
+}
+@media (min-width:368px) and (max-width:1600){
+    .completeclass{
+        display: block;
+        background-color: rgb(155, 165, 42);
+    }
+}
+
+@media (min-width:300px) and (max-width:500px){
+    .completeclass{
+        display: block;
+        background-color: rgb(165, 42, 44);
+    }
+}
+
+@media (min-width:368px) and (max-width:1600px) {
+    .container{
+        display: block;
+        background-color:rgb(42, 165, 87);
+    }
+}
+
+.icon{
+
+    min-width: auto;
+    max-width: 1600px;
+}
+
+.container{
+
+    border: 10px solid rgb(95, 42, 2);
+    background-color: rgb(245, 247, 245);
+    padding: 34px;
+    margin: 34px auto;
+    width: auto;
+    border-radius: 50px;
+    text-align: center;
+    font-display:initial
+}
+
+a:hover{
+    background-color: rgb(43, 226, 110);
+}
+
+.brand_image{
+
+    width: 368px;
+}
+
+/* @media (min-width:368px) and (max-width:1600px) {
+    .brand_image{
+        display: block;
+        background-color:rgb(42, 165, 87);
+    }
+} */
+
+/* .container{
+    display: flex;
+    flex-direction:row;
+} */
+
+.se:hover{
+
+border-radius: 20px;
+}
+
+.button1:hover{
+background-color: brown;
+
+
+}
