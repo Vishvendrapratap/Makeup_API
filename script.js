@@ -40,7 +40,7 @@ document.body.innerHTML=`
 
 
 
-let url="http://makeup-api.herokuapp.com/api/v1/products.json";
+let url="https://makeup-api.herokuapp.com/api/v1/products.json";
 // create a function to read the data
 
 async function getbrandoutput(){
